@@ -1,0 +1,12 @@
+Source: ros-kinetic-leuze-ros-drivers
+Section: misc
+Priority: optional
+Maintainer: Ludovic Delval <ludovic.delval@ipa.fraunhofer.de>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-leuze-ros-drivers
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-leuze-bringup, ros-kinetic-leuze-description, ros-kinetic-leuze-msgs, ros-kinetic-leuze-phidget-driver, ros-kinetic-leuze-rsl-driver
+Description: The leuze_ros_drivers metapackage
