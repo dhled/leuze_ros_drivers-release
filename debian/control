@@ -1,0 +1,12 @@
+Source: ros-kinetic-leuze-rsl-driver
+Section: misc
+Priority: optional
+Maintainer: Ludovic Delval <ludovic.delval@ipa.fraunhofer.de>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin, ros-kinetic-leuze-msgs, ros-kinetic-roscpp, ros-kinetic-rostest, ros-kinetic-rosunit, ros-kinetic-sensor-msgs
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-leuze-rsl-driver
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-leuze-msgs, ros-kinetic-roscpp, ros-kinetic-sensor-msgs
+Description: ROS Driver for the Leuze RSL series laser scanner.
