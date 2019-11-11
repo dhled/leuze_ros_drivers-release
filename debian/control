@@ -1,0 +1,12 @@
+Source: ros-melodic-leuze-description
+Section: misc
+Priority: optional
+Maintainer: Ludovic Delval <ludovic.delval@ipa.fraunhofer.de>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin, ros-melodic-roslaunch
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-melodic-leuze-description
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-robot-state-publisher, ros-melodic-rviz, ros-melodic-urdf, ros-melodic-xacro
+Description: This package contains .
