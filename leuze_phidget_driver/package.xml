@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package format="2">
   <name>leuze_phidget_driver</name>
-  <version>1.0.0</version>
+  <version>1.0.1</version>
   <description>The phidget interface kit driver package for leuze lasers</description>
 
   <author email="ludovic.delval@ipa.fraunhofer.de">Ludovic Delval</author>
