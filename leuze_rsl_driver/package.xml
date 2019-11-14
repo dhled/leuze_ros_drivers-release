@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package format="2">
   <name>leuze_rsl_driver</name>
-  <version>1.0.0</version>
+  <version>1.0.1</version>
   <description>ROS Driver for the Leuze RSL series laser scanner. </description>
 
   <author email="ludovic.delval@ipa.fraunhofer.de">Ludovic Delval</author>
@@ -15,6 +15,7 @@
   <depend>roscpp</depend>
   <depend>sensor_msgs</depend>
   <depend>leuze_msgs</depend>
+  <depend>angles</depend>
 
   <test_depend>rosunit</test_depend>
   <test_depend>rostest</test_depend>
