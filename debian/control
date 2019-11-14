@@ -1,0 +1,12 @@
+Source: ros-melodic-leuze-phidget-driver
+Section: misc
+Priority: optional
+Maintainer: Ludovic Delval <ludovic.delval@ipa.fraunhofer.de>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin, ros-melodic-leuze-msgs, ros-melodic-roscpp, ros-melodic-std-msgs
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-melodic-leuze-phidget-driver
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-leuze-msgs, ros-melodic-roscpp, ros-melodic-std-msgs
+Description: The phidget interface kit driver package for leuze lasers
