@@ -7,6 +7,7 @@ find_package(catkin REQUIRED COMPONENTS
   roscpp
   sensor_msgs
   leuze_msgs
+  angles
 )
 
 find_package(Boost REQUIRED)
