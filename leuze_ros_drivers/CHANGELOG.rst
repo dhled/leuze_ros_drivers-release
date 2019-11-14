@@ -2,6 +2,9 @@
 Changelog for package leuze_ros_drivers
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.0.1 (2019-11-14)
+------------------
+
 1.0.0 (2019-11-11)
 ------------------
 * Merge branch 'package_updates' into 'master'
