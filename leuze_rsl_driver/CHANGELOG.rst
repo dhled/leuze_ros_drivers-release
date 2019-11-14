@@ -2,6 +2,11 @@
 Changelog for package leuze_rsl_driver
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.0.1 (2019-11-14)
+------------------
+* Fixed dependency on angles
+* Contributors: kut
+
 1.0.0 (2019-11-11)
 ------------------
 * Merge branch 'package_updates' into 'master'
