@@ -14,15 +14,15 @@ tracks:
       :{release_inc}
     devel_branch: null
     last_version: 1.0.0
-    name: upstream
+    name: leuze_ros_drivers
     patches: null
     release_inc: '2'
     release_repo_url: git@github.com:ipa-led/leuze_ros_drivers-release.git
-    release_tag: 1.0.0
+    release_tag: 1.0.1
     ros_distro: kinetic
     vcs_type: git
     vcs_uri: https://gitlab.cc-asp.fraunhofer.de/led/leuze_ros_drivers.git
-    version: 1.0.0
+    version: 1.0.1
   melodic:
     actions:
     - bloom-export-upstream :{vcs_local_uri} :{vcs_type} --tag :{release_tag} --display-uri
